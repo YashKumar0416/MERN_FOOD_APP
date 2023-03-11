@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const mongoURI = process.env.mongoURI;
+const mongoURI = process.env.MONGOURI;
 
 const mongoDB = async ()=> {
     mongoose.set("strictQuery", true)
