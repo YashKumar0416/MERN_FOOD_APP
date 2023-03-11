@@ -1,0 +1,116 @@
+/* GLOBAL SETTINGS */
+.link{
+  text-decoration: none;
+}
+
+.app_theme{
+  background-color: rgb(245, 252, 252);
+}
+
+.button:focus{
+  border: none;
+  outline: none !important; 
+  box-shadow: none !important;
+}
+
+.main_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 88.8vh;
+  flex-direction: column;
+}
+
+/* HOME-SEARCH-BAR */
+.form-control:focus{
+  border-radius: 15px;
+  box-shadow: none !important;
+  border-color: aqua;
+}
+
+.search_icon{
+  position: relative;
+  right: 5rem;
+  top: 0.3rem;
+}
+
+/* CAROUSAL_STYLING */
+#carousal_item{
+    color: aqua;
+  }
+  
+#carousal_images{
+    filter: brightness(50%);
+    object-fit: cover !important;
+    max-height: 500px;
+  }
+  
+/* ABOUT US */
+#aboutus{
+  filter: brightness(80%);
+  z-index: 10;
+}
+
+.image{
+  position: relative;
+  z-index: 1500;
+}
+
+/* CONTACT US */
+.contact-button{
+  box-shadow: none !important;
+  outline: none;
+}
+
+.contact-button:focus{
+  box-shadow: none;
+}
+
+
+/* NAVBAR */
+.logo:hover{
+  transform:translateX(10%);
+}
+
+/* CART */
+.Scroll::-webkit-scrollbar{
+  display: none;
+}
+
+/* PROFILE INPUT */
+.profile_input{
+  border: none;
+  border-bottom: 1px solid aqua;
+}
+
+.profile_input:focus{
+  border: none;
+  border-bottom: 1px solid aqua;
+  outline: none;
+}
+
+/* ACCORDION */
+.accordion{
+  overflow: hidden;
+}
+
+.accordion-button{
+  overflow: hidden;
+  background-color: rgb(245, 252, 252);
+}
+
+.accordion-button:focus{
+  background-color: white;
+  outline: none;
+  box-shadow: none;
+}
+
+/* CARD */
+.cards_container{
+  min-height: 30rem;
+}
+
+.single_card:hover{
+  transform: scale(1.1);
+  box-shadow: 1px 1px 4px 1px aqua;
+}
